@@ -1,0 +1,4 @@
+com/example/solr/book/model/Book.class
+com/example/solr/book/service/BookService.class
+com/example/solr/book/repository/BookRepository.class
+com/example/solr/book/service/BookServiceImpl.class
