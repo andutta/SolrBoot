@@ -1,4 +1,12 @@
-com/example/solr/book/model/Book.class
-com/example/solr/book/service/BookService.class
-com/example/solr/book/repository/BookRepository.class
-com/example/solr/book/service/BookServiceImpl.class
+com\example\solr\location\repository\LocationRepository.class
+com\example\solr\book\repository\BookRepository.class
+com\example\solr\book\web\BookController.class
+com\example\solr\book\model\Book.class
+com\example\solr\SolrConfig.class
+com\example\solr\book\service\BookService.class
+com\example\solr\Application.class
+com\example\solr\location\web\LocationController.class
+com\example\solr\location\model\Location.class
+com\example\solr\book\service\BookServiceImpl.class
+com\example\solr\location\service\LocationRepositoryImpl.class
+com\example\solr\location\service\LocationService.class
