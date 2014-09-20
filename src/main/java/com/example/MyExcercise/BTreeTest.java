@@ -19,6 +19,15 @@ public class BTreeTest {
 
         addToLeaf(root, key, value);
     }
+    
+    public void addNode(Node node, int key, String value){
+        if (root == null){
+            root = new Node(key, value);
+            return;
+        }
+
+        addToLeaf(node, key, value);
+    }
 
     private void addToLeaf(Node currentNode, int key, String value){
         if (key > currentNode.key){ ///Then right node
