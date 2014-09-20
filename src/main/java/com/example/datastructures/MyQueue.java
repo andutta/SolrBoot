@@ -11,9 +11,9 @@ import com.example.datastructures.MyLinkedList.Node;
  */
 public class MyQueue<V> {
 	
-	private MyLinkedList<V> queue;
+	protected MyLinkedList<V> queue;
 	private V lastPushed;
-	private V lastPoped;
+	protected V lastPoped;
 	private int queueCount;
 	
 	public MyQueue(){
@@ -70,47 +70,4 @@ public class MyQueue<V> {
 
 	}
 		
-		
-		/*
-		MyLinkedList<Integer> myLinkedList = new MyLinkedList<Integer>();
-		
-		Integer i = new Integer(10);
-		Integer j = new Integer(11);
-		Integer k = new Integer(12);
-		Integer l = new Integer(20);
-		
-		MyLinkedList<Integer>.Node<Integer> node = myLinkedList.new Node<Integer>();
-		
-		node.setNodeData(i);
-		
-		myLinkedList.addNode(node);
-		
-		node = myLinkedList.new Node<Integer>();
-		node.setNodeData(j);
-		
-		myLinkedList.addNode(node);
-		
-		node = myLinkedList.new Node<Integer>();
-		node.setNodeData(k);
-		
-		myLinkedList.addNode(node);
-		
-		node = myLinkedList.new Node<Integer>();
-		node.setNodeData(l);
-		
-		myLinkedList.addNode(node);
-		
-		myLinkedList.showAllNodes();
-		
-		System.out.println("====================");
-		
-		myLinkedList.removeNode(3);
-		
-		myLinkedList.showAllNodes();
-		
-		
-	}*/
-	
-	
-
 }
